@@ -7,41 +7,60 @@ git clone <copied name from github repo>
 git status
 ```
 
-add for staging
-git add filename.js
-
-add all for staging
+#### add for staging /specific file/ all/ all
+```
+git add <filename>
 git add -A
+git add .
 
-consult history/ commit id
+```
+### remove staged file
+```
+git reset <filename>
+```
+#### consult history/ commit id
+```
 git log
+```
 
-commit change
-git commit -m 'commit comment'
-
-amend commit (minor change)
+#### add and commit change (does not work when needing to add new file)
+```
+git commit -am 'commit message'
+```
+#### commit change
+```
+git commit -m 'commit message'
+```
+#### amend commit (minor change)
+```
 git commit --amend
-
-push to main
+```
+### undo commit reset HEAD to point att the first commit before the one to undo
+```
+git reset HEAD~1
+```
+#### push to main / push to and define upstream for further pushes
+```
 git push origin main
-
-remove accidentally commited commit
-git rm —-cached
-
-git commit —-amend
-
-consult branch
+git push -u origin <name>
+```
+#### consult branch
+```
 git branch
+```
+#### switch to branch
+```
+git checkout <branch name>
+```
+#### pull from origin / pull and set upstream/ pull once upstream defined
+```
+git pull origin <branchname>
+git pull -u origin <branchname>
+git pull
+```
 
-switch to branch
+#### sync branch with main
 git checkout
-
-actualize main
-git pull origin
-
-sync branch with main
-git checkout
-
 git pull origin
 
 (main: production, dev:development) (change default branch to dev in github... pull request should be made to dev)
