@@ -1,11 +1,11 @@
 #### clone project
-´´´
+```
 git clone <copied name from github repo>
-´´´
+```
 #### check for changes
-´´´
+```
 git status
-´´´
+```
 
 add for staging
 git add filename.js
