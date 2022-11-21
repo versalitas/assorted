@@ -74,6 +74,6 @@ git pull
 git checkout
 git pull origin
 ```
-git pull origin
+
 
 (main: production, dev:development) (change default branch to dev in github... pull request should be made to dev)
