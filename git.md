@@ -18,7 +18,7 @@ git add .
 ```
 git reset <filename>
 ```
-#### consult history/ commit id
+#### consult history/ commit id (displayed in reversed order)
 ```
 git log
 ```
@@ -39,6 +39,16 @@ git commit --amend
 ```
 git reset HEAD~1
 ```
+
+### undo commit with commit hash (consult via git log), 
+```
+git reset commit <hash>
+```
+### unstage and remove commits
+```
+git reset hard <hash>
+```
+
 #### push to main / push to and define upstream for further pushes
 ```
 git push origin main
@@ -60,7 +70,10 @@ git pull
 ```
 
 #### sync branch with main
+```
 git checkout
+git pull origin
+```
 git pull origin
 
 (main: production, dev:development) (change default branch to dev in github... pull request should be made to dev)
