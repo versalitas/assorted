@@ -8,3 +8,9 @@ Math.ceil(n);
 
 //round down to nearest Integer
 Math.floor(n);
+
+//power of
+
+n ** 2
+
+Math.pow(n, 2)
