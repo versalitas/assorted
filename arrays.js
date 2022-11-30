@@ -13,10 +13,22 @@ months.length;
 months.sort();
 
 //SORT ascending numerical
-days.sort(function(a, b){return a - b};
+// get min value out of array 
+days.sort((a, b) => {return a - b};
+const min = days[0];           
+
+//get min out of array
+const min = (days) => Math.min(...days);
+         
 
 //SORT descending numerical
-days.sort(function(a, b){return b - a);
+// get max value out of array 
+days.sort((a, b) => {return b - a);
+const max = days[0];                         
+
+// get max value out of array                       
+const max = (days) => Math.max(...days); 
+                         
 
 //get MAX num
 Math.max.apply(days);
