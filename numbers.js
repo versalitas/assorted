@@ -23,3 +23,10 @@ const sum = (num) => {
   }
   return result;
 }
+
+//find n of volume made up of n rows of blocks
+function findNRows(volume) {
+  var n = 0
+  while (volume > 0) m -= ++n**3
+  return volume ? -1 : n
+}
