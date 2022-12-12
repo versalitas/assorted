@@ -34,10 +34,28 @@ convertToInteger('56';)
 
 // functions for eliminating whitespace
 //alt1
-function noSpace(x){return x.split(' ').join('')}
+const noSpace = (x) => 
+{return x.split(' ').join('')}
 
 //alt2
-function noSpace(x){
+const noSpace = (x) => {
   return x.replace(/\s/g, '');
 }
 
+//eliminating vowels
+const disemvowel = (str) => {
+  return str.replace(/[aeiou]/gi, '');
+}
+
+//eliminating vowels
+const disemvowel = (str) => {
+	const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+	let newStr = '';
+	for (let i = 0; i <= str.length; i++) {
+		let char = str.charAt(i);
+		if (vowels.indexOf(char) == -1) {
+			newStr += char;
+		}
+	}
+		return newStr;
+	};
