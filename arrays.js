@@ -50,13 +50,24 @@ someArray.forEach(el => {if(some logic){console.log(el));
 //returns filtered array
 const newArray = someArray.filter(el => el.propiedad === 'input´);
 
-// delete first occurence of smallest value
+//delete first occurence of smallest value
   const removeSmallest = (numbers) => {
-  //returns a copy starting from 0
+//returns a copy starting from 0
   numbers = numbers.slice(0);
   const min = Math.min(...numbers);
   numbers.splice(numbers.indexOf(min), 1);
   return numbers;
 }
-                                  
 
+//return smallest and largest number in array
+
+const minMax = (arr) => {
+  return [Math.min(...arr), Math.max(...arr)];
+}
+
+//return smallest and largest number in array
+
+const minMax = (arr) => {
+	let a = arr.sort(function(a,b) {return a-b});
+	return [a[0], a[a.length-1]];
+	}
