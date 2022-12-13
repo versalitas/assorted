@@ -15,5 +15,11 @@ const lookUp = (value) => {
 
 console.log(lookUp("first_thing"));
 
+//array instead of switch
+
+const lookUp = (n) => {
+  return ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n];
+}
+
 
 
