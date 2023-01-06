@@ -1,3 +1,17 @@
+
+
+//pangram solution
+
+const isPangram = (string) => {
+  const alphabet = [...'abcdefghijklmnopqrstuvwxyz'];
+
+  return alphabet.every((letter) => string.toLowerCase().includes(letter));
+}
+
+
+
+
+
 //! ------------------------ NORMES -----------------------------
 // No es poden usar métodes d'arrays i strings, p.e. Array.sort() o String.split()
 // No es pot modificar ni l'assignació de variables ni l'execució de les funcions que ja hi ha escrites
