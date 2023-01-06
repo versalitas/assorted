@@ -1,11 +1,25 @@
 
 
-//pangram solution
+//pangram solutions
 
+//with array method every (returns true if every element fulfill condition)
 const isPangram = (string) => {
+  let str = string.toLowerCase();
   const alphabet = [...'abcdefghijklmnopqrstuvwxyz'];
 
-  return alphabet.every((letter) => string.toLowerCase().includes(letter));
+  return alphabet.every((letter) => str.toLowerCase().includes(letter));
+}
+
+//
+const isPangram = (string) => {
+  let str = string.toLowerCase();
+  let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  for(let i = 0; i < alphabet.length; i++){
+    if(str.indexOf(alphabet[i]) < 0){
+      return false;
+    }
+  }
+  return true;
 }
 
 
