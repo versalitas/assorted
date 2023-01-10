@@ -1,7 +1,50 @@
 /* selectors */
 
-/* general */
+/* universal selector */
 
 * {
-  color:red;
+  color:black;
 }
+
+/* by type */
+
+p {
+  color:blue;
+}
+
+/* by class */
+.important-class{
+  color:green;
+} 
+
+/* by id */
+
+#super-important{
+  color:red:
+}
+
+/* by pseudoclass */
+
+a:hover {
+  color:orange;
+}
+
+/* combining classes */
+/* <h1 class="bold upper">Hello World</h1> */
+/* <h2 class="important-class upper">ASAP</h2> */
+
+.bold{
+  text-transform:bold;
+ }
+
+.upper {
+text-transform:uppercase;
+}
+
+/*style unrelated selectors together*/
+
+p, li {
+  text-transform:uppercase;
+}
+/* select by value */  
+input[value*='green']
