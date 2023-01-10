@@ -46,5 +46,5 @@ text-transform:uppercase;
 p, li {
   text-transform:uppercase;
 }
-/* select by value */  
-input[value*='green']
+/* select by attribute*/  
+img[src*='happy coding']
