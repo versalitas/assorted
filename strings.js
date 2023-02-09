@@ -1,10 +1,9 @@
 
-//from codewars function that joins two strings without duplicates
 
+//from codewars function that joins two strings without duplicates
 const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('');
 
 //reverse a string
-
 const reverseStr =  => (str){
   return str.split('').reverse().join('');  
 }
@@ -34,13 +33,19 @@ convertToInteger('56';)
 
 // functions for eliminating whitespace
 //alt1
-const noSpace = (x) => 
+const noSpace1 = (x) => 
 {return x.split(' ').join('')}
 
 //alt2
-const noSpace = (x) => {
+const noSpace2 = (x) => {
   return x.replace(/\s/g, '');
 }
+
+//eliminate at beginning and end
+const noSpace3 = (x) => {
+  return x.trim();
+}
+
 
 //eliminating vowels
 const disemvowel = (str) => {
