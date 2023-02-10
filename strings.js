@@ -1,4 +1,8 @@
+//change case
 
+String.prototype.toAlternatingCase = function () {
+  return this.replace(/[A-Za-z]/g, x => x > "Z" ? x.toUpperCase() : x.toLowerCase()) 
+}
 
 //from codewars function that joins two strings without duplicates
 const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('');
