@@ -1,5 +1,5 @@
 //change case
-
+//compares ASCII values, lowercase values are greater than uppercase, g allows for matching all
 String.prototype.toAlternatingCase = function () {
   return this.replace(/[A-Za-z]/g, x => x > "Z" ? x.toUpperCase() : x.toLowerCase()) 
 }
