@@ -42,7 +42,11 @@ months.includes('May');
 
 ['water', 'electric', 'plant'].includes(input)
 
-
+//sorting out elements from an array
+const gooseFilter = (birds) => {
+	 const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+	 return birds.filter(bird => {return !geese.includes(bird)});
+};
 
 //iteration with forEach applying something to some elements according to logic
 someArray.forEach(el => {if(some logic){console.log(el));
