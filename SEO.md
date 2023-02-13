@@ -16,3 +16,7 @@ SEO : no tiene coste directo | a largo plazo | incrementa gradualmente - creciem
 SEM: de pago | corto plazo | cuando dejas de pagar deja de funcionar
 
 GOOGLE SEO CONSOLE:
+
+SEMRUSH: analiza páginas, puedes analizar competidores. (dura mienstras pagues)
+
+SEO compartidas/ conjuntas
