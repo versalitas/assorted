@@ -30,3 +30,14 @@ function findNRows(volume) {
   while (volume > 0) m -= ++n**3
   return volume ? -1 : n
 }
+
+//find substring with maxSum
+var maxSequence = function(arr){
+  var min = 0, maxSum = 0, i, sum = 0;
+  for (i = 0; i < arr.length; ++i) {
+    sum += arr[i];
+    min = Math.min(sum, min);
+    maxSum = Math.max(maxSum, sum - min);
+  }
+  return maxSum;
+}
