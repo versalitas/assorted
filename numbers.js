@@ -28,11 +28,11 @@ const sum = (num) => {
 function findNRows(volume) {
   var n = 0
   while (volume > 0) m -= ++n**3
-  return volume ? -1 : n
+  return volume ? -1 : n;
 }
 
 //find substring with maxSum
-var maxSequence = function(arr){
+var maxSequence = const (arr) => {
   var min = 0, maxSum = 0, i, sum = 0;
   for (i = 0; i < arr.length; ++i) {
     sum += arr[i];
