@@ -30,3 +30,19 @@ a google le gusta hierarquias en la estructura de la web, breadcrumbs
 números o años
 
 Poner números o títulos en el web
+
+Backlinks (links de páginas más grandes)
+
+Redirigir rutas 301
+
+HOSTING
+
+tiempo de respuesta, si el servidor es rápido el crawler puede rastrear más veces, hay que ir actualizando.
+también repercute si el servidor esta lejos del usuario. 
+
+(aws permite controlar todo... )
+
+(delegación de servicio hacking hace caer el servidor)
+
+cloudflare CDN (red de servidores de cloudflare, hay una copia de la página en cada servidor... así nunca hay tanta gente en el servidor matriz)
+
