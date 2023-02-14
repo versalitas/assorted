@@ -68,3 +68,6 @@ validator.schema.org ( **datos estructurados** )
 schema.org (ejemplos de datos estructurados)
 <img loading="lazy" alt="teatro">
 squoosh comprimir imágenes
+
+CORE WEB VITALS 
+LCP  tiempo que carga la imagen más grande visible de la página. Lazy load, optimar imagen...
