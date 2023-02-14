@@ -70,4 +70,13 @@ schema.org (ejemplos de datos estructurados)
 squoosh comprimir imágenes
 
 CORE WEB VITALS 
-LCP  tiempo que carga la imagen más grande visible de la página. Lazy load, optimar imagen...
+LCP  tiempo que carga la imagen más grande visible de la página. Lazy load, optimar imagen... Largest Content Paint
+FID el tiempo de la primers actuación: orden de carga de imagenes, eliminar css y js... First Input DElay
+CLS cumulative layout shift (cls)
+(tutorials de SEMRUSH Romuald no sé cuantos) estibilidad visual de la página, evitar carga de anuncio que se carguen más lento . Solucionar con cajas reservadas.
+
+POPUP no puede ocupar la mayoría de la pantalla.
+CTR : url amigable, titulo que llama la atención, datas estructuradas
+
+
+
