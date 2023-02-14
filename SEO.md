@@ -50,3 +50,13 @@ cloudflare CDN (red de servidores de cloudflare, hay una copia de la página en 
 
 con site: puedes filtrar todos los artículos. site:rogerbernat.info participación
 
+info en listas 
+
+h1. (una vez en una página)
+
+h2 (2-4)
+
+h3 (5-7)
+
+
+
