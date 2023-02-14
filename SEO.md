@@ -46,3 +46,7 @@ también repercute si el servidor esta lejos del usuario.
 
 cloudflare CDN (red de servidores de cloudflare, hay una copia de la página en cada servidor... así nunca hay tanta gente en el servidor matriz)
 
+<meta name="description" content="Lorem ipsum"/>
+
+con site: puedes filtrar todos los artículos. site:rogerbernat.info participación
+
