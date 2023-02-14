@@ -52,7 +52,7 @@ con site: puedes filtrar todos los artículos. site:rogerbernat.info participaci
 
 info en listas 
 
-h1. (una vez en una página)
+h1. (una vez en una página) que incluya las palabras claves
 
 h2 (2-4)
 
@@ -61,3 +61,10 @@ h3 (5-7)
 
 seofrog
 answerthepublic.com
+keywordsheeter.com
+planificador de palabras claves
+pagespeed.web.dev
+validator.schema.org ( **datos estructurados** )
+schema.org (ejemplos de datos estructurados)
+<img loading="lazy" alt="teatro">
+squoosh comprimir imágenes
