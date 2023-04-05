@@ -75,3 +75,48 @@ const minMax = (arr) => {
 	let a = arr.sort(function(a,b) {return a-b});
 	return [a[0], a[a.length-1]];
 	}
+
+//simplify direction
+const dirReduc = (arr) => {
+  
+  const opposites = {
+    'NORTH': 'SOUTH',
+    'SOUTH': 'NORTH',
+    'EAST': 'WEST',
+    'WEST': 'EAST'
+  };
+  
+  const simplerArr = [];
+  
+  for (const direction of arr) {
+    
+    if (simplerArr.length && opposites[direction] === simplerArr[simplerArr.length - 1]) {
+      simplerArr.pop();
+    } else {
+      simplerArr.push(direction);
+    }
+  }
+  
+  return simplerArr;
+}
+
+//tower or christmas tree builder
+
+const towerBuilder = (nFloors) => {
+  let tower = [];
+  let charNum = nFloors * 2 - 1;
+  
+  for (let i = 0; i < nFloors; i++) {
+    let floor = "";
+    
+    for (let j = 0; j < charNum; j++) {
+      if (j < nFloors - i - 1 || j > nFloors + i - 1) {
+        floor += " ";
+      } else {
+        floor += "*";
+      }
+    }
+    tower.push(floor);
+  }
+  return tower;
+}
