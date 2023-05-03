@@ -1,5 +1,12 @@
-//Mexican Wave
+//camelcase a string with _ or/ and -
 
+const toCamelCase = (str) => {
+  //replaces any substr of separator and the following letter with the result of the callback(letter is extracted and capitalized)
+  return str.replace(/(_|-)./g, letter => letter.substr(1, 1).toUpperCase());
+}
+
+
+//Mexican Wave
 const wave = (str) => {
     
     let wave = [];
