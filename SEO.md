@@ -48,7 +48,7 @@ cloudflare CDN (red de servidores de cloudflare, hay una copia de la página en 
 
 <meta name="description" content="Lorem ipsum"/>
 
-con site: puedes filtrar todos los artículos. site:rogerbernat.info participación
+con site: puedes filtrar todos los artículos. site:[url] participación
 
 info en listas 
 
